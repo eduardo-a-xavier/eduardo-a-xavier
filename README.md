@@ -7,9 +7,8 @@ Porto Alegre, RS · [LinkedIn](https://linkedin.com/in/eduardo-a-xavier) · [alv
 
 ## Sobre mim
 
-Trabalho na área de TI desde 2026, atuando em duas frentes simultâneas na mesma empresa: suporte interno corporativo (help desk, endpoint security, IAM) e desenvolvimento de dados (migração Oracle SQL → Power BI com Python/pandas em ambiente Ubuntu/WSL).
+Trabalho na área de TI desde 2025, atuando em duas frentes simultâneas na mesma empresa: suporte interno corporativo (help desk, endpoint security, IAM) e desenvolvimento de dados (migração Oracle SQL → Power BI com Python/pandas em ambiente Ubuntu/WSL).
 
-Tenho MEI ativo de manutenção de hardware e desenvolvo projetos pessoais em visão computacional, automação com IA e web. Cursando Engenharia de Software na UniRitter (previsão 2029), com Técnico em Desenvolvimento de Sistemas concluído.
 
 ---
 
