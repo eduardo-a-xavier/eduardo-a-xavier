@@ -44,11 +44,11 @@ Trabalho na área de TI desde 2025, atuando em duas frentes simultâneas na mesm
 ## Projetos
 
 ### 🚗 NeuroDrive
-Pipeline de visão computacional para detecção em tempo real de faixas de rodagem.  
+Sistema de telemetria que extrai odometria visual em tempo real: a câmera do celular transmite vídeo via Wi-Fi para um servidor Flask, que calcula velocidade e aceleração por Optical Flow (Lucas-Kanade) sobre uma maquete em escala 1:24.  
 Projeto acadêmico apresentado na *A Jornada UniRitter 2026* — **3º lugar geral** com Certificado de Honra ao Mérito.
 
-- **Stack:** Python, OpenCV, Flask, PWA (dashboard de telemetria ao vivo)
-- **Destaques:** detecção em tempo real via webcam, pipeline modular, interface web responsiva
+- **Stack:** Python, OpenCV, Flask, SciPy, PWA (dashboard de telemetria ao vivo via SSE)
+- **Destaques:** odometria visual por Optical Flow, HUD de velocímetro renderizado em OpenCV, simulações eletromagnéticas do motor (FCEM, ressonância RLC, análise de harmônicas por FFT)
 - 🔗 [Ver repositório](https://github.com/eduardo-a-xavier/neurodrive)
 
 ---
