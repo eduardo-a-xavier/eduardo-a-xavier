@@ -70,17 +70,9 @@ Projeto acadêmico premiado com Certificado de Honra ao Mérito.
 
 ---
 
-### 🤖 InfoJobs Bot *(automação)*
-Bot de candidatura automatizada com IA generativa (Gemini API) e automação de browser via Playwright.  
-
-- **Stack:** Python, Playwright, Gemini API
-- Geração dinâmica de textos de candidatura personalizados por vaga
-
----
-
 ## Experiência
 
-**Silveiro Advogados** — Porto Alegre, RS *(jan/2026 – atual)*
+**Silveiro Advogados** — Porto Alegre, RS *(dez/2025 – atual)*
 
 *Estagiário de Desenvolvimento / Dados*
 - Migração de relatórios Oracle SQL → Power BI com rotinas de extração e tratamento em Python/pandas
@@ -106,9 +98,6 @@ Bot de candidatura automatizada com IA generativa (Gemini API) e automação de 
 |---|---|---|
 | Qualificação Profissional em Inteligência Artificial (160h) | UniRitter | 2025 |
 | Introdução à Análise de Dados (BI & Analytics) | LinkedIn Learning | 2026 |
-| Fundamentos para Assistentes Administrativos — Microsoft 365 | LinkedIn/Microsoft | 2026 |
-| Microsoft Outlook na Web | LinkedIn Learning | 2026 |
-| Rota: Torne-se Especialista em Atendimento ao Cliente | LinkedIn Learning | 2026 |
 
 ---
 

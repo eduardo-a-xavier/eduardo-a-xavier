@@ -39,7 +39,7 @@ O recorte de estágio serve de linha de base: é o que você já faz. O foco da 
 | **Docker** | 2 de 6 (diferencial) | ✅ já usa |
 | **Testes automatizados** | 2 de 6 | ❌ **lacuna clara** |
 | **Power BI + DAX/Power Query (M)** | 2 de 6 | 🟡 usa Power BI, não cita DAX/M |
-| **IA aplicada (RAG, agentes, LLM em processo)** | tendência forte em 2026 | 🟡 usou Gemini API em bot |
+| **IA aplicada (RAG, agentes, LLM em processo)** | tendência forte em 2026 | 🟡 usou Gemini API, mas sem código público |
 | **Inglês** | vagas remotas melhores exigem leitura/escrita | ❓ não declarado |
 
 ### Leitura dos dados
@@ -74,21 +74,30 @@ O recorte de estágio serve de linha de base: é o que você já faz. O foco da 
 
 ### Onde o perfil perde pontos
 
-1. **Posicionamento diluído.** O título abre com "Estagiário de TI". Isso ancora sua
-   percepção no help desk, que é o teto salarial mais baixo entre tudo que você faz.
-   Você não é um estagiário de suporte que mexe com Python; você é um dev de dados que
-   também sustenta a operação.
-2. **Projeto sem link.** O "InfoJobs Bot" está listado sem repositório. Projeto citado e
-   não verificável tira credibilidade do resto — inclusive do NeuroDrive.
-3. **Certificações desequilibradas.** Das cinco listadas, três são não técnicas
-   (Atendimento ao Cliente, Assistentes Administrativos, Outlook na Web). Numa vaga de
-   dados isso vira ruído e reforça a leitura "perfil administrativo/suporte".
-4. **Só dois projetos, nenhum deles no formato que o mercado de dados avalia** (pipeline
-   reproduzível, com dado de entrada, transformação, saída e teste).
-5. **Zero sinal de teste, cloud e API pública.** Três das quatro coisas mais pedidas.
-6. **Inconsistência de datas.** O README diz "desde 2025", a experiência diz "jan/2026" e o
-   currículo do Indeed diz "dezembro/2025". Recrutador percebe e desconta.
-7. **Sem versão em inglês.** Fecha a porta das vagas remotas mais bem pagas antes da
+#### Já corrigido no README
+
+1. ~~**Posicionamento diluído.**~~ O título abria com "Estagiário de TI", ancorando a
+   percepção no help desk — o teto salarial mais baixo entre tudo que você faz. Agora abre
+   como dev Python/Dados. **Falta replicar no LinkedIn**, que é onde o recrutador olha primeiro.
+2. ~~**Projeto sem link.**~~ O "InfoJobs Bot" estava listado sem repositório; foi removido.
+3. ~~**Certificações desequilibradas.**~~ As três não técnicas (Atendimento ao Cliente,
+   Assistentes Administrativos, Outlook na Web) saíram — viravam ruído em vaga de dados e
+   reforçavam a leitura "perfil administrativo".
+4. ~~**Inconsistência de datas.**~~ Padronizado em dez/2025 na experiência, coerente com o
+   "desde 2025" do texto e com o currículo do Indeed.
+
+#### Ainda em aberto
+
+5. **Portfólio de um projeto só.** Com a saída do bot, sobra o NeuroDrive — que é forte, mas
+   é um projeto acadêmico de visão computacional, não o formato que vaga de dados avalia
+   (pipeline reproduzível: entrada, transformação, saída, teste). **Isso torna o
+   projeto-âncora da seção 5 a prioridade número um do portfólio, não mais um "extra".**
+6. **Só duas certificações, ambas introdutórias.** Com o corte, restaram a de IA (UniRitter,
+   160h) e a de Análise de Dados (LinkedIn Learning). A tabela ficou honesta, mas curta —
+   razão a mais para o AZ-900 e o PL-300 saírem do papel: são as duas que o mercado
+   reconhece de verdade.
+7. **Zero sinal de teste, cloud e API pública.** Três das quatro coisas mais pedidas.
+8. **Sem versão em inglês.** Fecha a porta das vagas remotas mais bem pagas antes da
    primeira conversa.
 
 ---
@@ -118,12 +127,12 @@ sua história de diferenciação: *"faço dados em ambiente com dado sensível e
 Ordenado por retorno sobre esforço, não por dificuldade.
 
 ### Semanas 1–2 — Arrumar a vitrine (custo ~zero, retorno imediato)
-- [ ] Reposicionar o título do README e do LinkedIn para a trilha escolhida.
-- [ ] Publicar o repositório do bot **ou** removê-lo do README. Sem link, tira mais do que dá.
+- [x] Reposicionar o título do README para a trilha escolhida. **Falta o LinkedIn.**
+- [x] Bot removido do README (estava sem link). Se um dia publicar o repositório, ele volta.
 - [ ] Conferir se `neurodrive` está **público** e com README próprio contendo: problema,
       GIF/print do dashboard rodando, como executar em 3 comandos, e o resultado (o 3º lugar).
-- [ ] Reordenar certificações: técnicas primeiro; as administrativas saem ou vão para o fim.
-- [ ] Padronizar a data de início (dez/2025 ou jan/2026 — uma só, em todos os lugares).
+- [x] Certificações não técnicas removidas.
+- [x] Data de início padronizada em dez/2025. **Confira se o LinkedIn e o Indeed batem.**
 - [ ] Fixar (pin) os repositórios certos no perfil do GitHub.
 
 ### Semanas 3–6 — Fechar a lacuna de cloud e testes
@@ -155,14 +164,15 @@ Ordenado por retorno sobre esforço, não por dificuldade.
 
 | # | Ação | Esforço | Impacto |
 |---|---|---|---|
-| 1 | Título/posicionamento: de "Estagiário de TI" para dev Python/Dados | 10 min | 🔥🔥🔥 |
-| 2 | Resolver o projeto sem link | 30 min | 🔥🔥🔥 |
-| 3 | Explicitar Git, Flask, API REST, ETL na stack (você já usa) | 15 min | 🔥🔥 |
-| 4 | Quantificar as entregas do trabalho atual | 30 min | 🔥🔥 |
-| 5 | Certificação cloud (AZ-900) | 3–4 semanas | 🔥🔥🔥 |
-| 6 | Testes + CI no NeuroDrive | 1 semana | 🔥🔥 |
-| 7 | Projeto pipeline end-to-end | 4–6 semanas | 🔥🔥🔥 |
-| 8 | Versão em inglês do README | 1h | 🔥 |
+| ✅ | Título/posicionamento: de "Estagiário de TI" para dev Python/Dados | feito | 🔥🔥🔥 |
+| ✅ | Resolver o projeto sem link (removido) | feito | 🔥🔥🔥 |
+| ✅ | Explicitar Git, Flask, API REST, ETL na stack (você já usa) | feito | 🔥🔥 |
+| 1 | Replicar o novo posicionamento no LinkedIn | 20 min | 🔥🔥🔥 |
+| 2 | Quantificar as entregas do trabalho atual | 30 min | 🔥🔥 |
+| 3 | Certificação cloud (AZ-900) | 3–4 semanas | 🔥🔥🔥 |
+| 4 | Testes + CI no NeuroDrive | 1 semana | 🔥🔥 |
+| 5 | Projeto pipeline end-to-end (agora é o único caminho para um 2º projeto) | 4–6 semanas | 🔥🔥🔥 |
+| 6 | Versão em inglês do README | 1h | 🔥 |
 
 ---
 
