@@ -1,6 +1,6 @@
 # Eduardo Alves Xavier
 
-**Desenvolvedor Python · Dados & Automação**  
+**Desenvolvedor PHP/Laravel · Python & Automação**  
 Estudante de Engenharia de Software · Porto Alegre, RS  
 [LinkedIn](https://linkedin.com/in/eduardo-a-xavier) · [alvesxavier.eduardo01@gmail.com](mailto:alvesxavier.eduardo01@gmail.com)
 
@@ -10,35 +10,41 @@ Estudante de Engenharia de Software · Porto Alegre, RS
 
 Trabalho na área de TI desde 2025, atuando em duas frentes simultâneas na mesma empresa.
 
-Na frente de **dados**, migro relatórios de Oracle SQL para Power BI construindo as rotinas
-de extração e tratamento em Python/pandas, em ambiente Ubuntu/WSL — na prática, ETL e
-modelagem de dados para tomada de decisão.
+Na frente de **desenvolvimento**, construo interfaces e painéis administrativos em
+**Laravel com Filament**: CRUD, regras de negócio, controle de acesso por perfil e telas que
+substituem processo manual. Ambiente Ubuntu/WSL.
 
 Na frente de **suporte interno**, sustento a operação de um escritório com 80+ usuários:
 help desk, endpoint security e gestão de identidades e acessos sob LGPD. Isso me deu algo
-incomum para quem está começando em dados: prática real de trabalhar com informação
-sensível, controle de acesso e conformidade.
+incomum para quem constrói painel administrativo: prática real com dado sensível,
+permissionamento e conformidade — entendo por que cada acesso existe antes de codificá-lo.
+
+Fora do trabalho, Python é minha segunda linguagem: visão computacional, automação de
+browser e integração com LLMs.
 
 ---
 
 ## Stack
 
 **Linguagens**
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/Oracle_SQL-F80000?style=flat-square&logo=oracle&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34C26?style=flat-square&logo=html5&logoColor=white)
 
-**Dados & BI**
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-
-**Back-end & APIs**
+**Web & Back-end**
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Filament](https://img.shields.io/badge/Filament-FDAE4B?style=flat-square&logo=laravel&logoColor=black)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![REST](https://img.shields.io/badge/API_REST-005571?style=flat-square)
+
+**Bancos & Dados**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
 
 **Infraestrutura & Ferramentas**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -74,8 +80,10 @@ Projeto acadêmico premiado com Certificado de Honra ao Mérito.
 
 **Silveiro Advogados** — Porto Alegre, RS *(dez/2025 – atual)*
 
-*Estagiário de Desenvolvimento / Dados*
-- Migração de relatórios Oracle SQL → Power BI com rotinas de extração e tratamento em Python/pandas
+*Estagiário de Desenvolvimento*
+- Desenvolvimento de interfaces e painéis administrativos em Laravel com Filament: CRUD, regras de negócio e controle de acesso por perfil
+- Consultas e manutenção em banco de dados relacional
+- Migração pontual de relatórios Oracle SQL → Power BI com tratamento em Python/pandas
 - Ambiente de desenvolvimento Ubuntu/WSL
 
 *Estagiário de TI / Suporte Interno*
