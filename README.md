@@ -50,10 +50,6 @@ Telemetria por visão computacional: a câmera do celular transmite vídeo para 
 
 Bot que automatiza candidaturas em portais de vagas, com textos personalizados por vaga gerados via Gemini API. `Python` `Playwright` `Gemini API`
 
-### 📦 [SimFrete — desafio backend](https://github.com/eduardo-a-xavier/simfrete-desafio)
-
-Busca de cidade por CEP e rota mais barata entre CEPs com Dijkstra, em Node.js puro sem dependências. `JavaScript` `Node.js` `Algoritmos`
-
 ### 🏋️ [Treino Fisiológico](https://github.com/eduardo-a-xavier/treino-fisiologico)
 
 PWA de acompanhamento de treino de academia. `TypeScript` `PWA`
