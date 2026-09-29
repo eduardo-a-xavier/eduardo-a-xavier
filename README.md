@@ -1,115 +1,69 @@
 # Eduardo Alves Xavier
 
-**Estagiário de TI · Desenvolvedor Python · Estudante de Engenharia de Software**  
-Porto Alegre, RS · [LinkedIn](https://linkedin.com/in/eduardo-a-xavier) · [alvesxavier.eduardo01@gmail.com](mailto:alvesxavier.eduardo01@gmail.com)
+**Estagiário de Desenvolvimento e TI · PHP/Laravel · Python · Engenharia de Software (UniRitter)**  
+Canoas / Porto Alegre, RS · [LinkedIn](https://www.linkedin.com/in/eduardo-a-xavier) · alvesxavier.eduardo01@gmail.com
+
+Trabalho na Silveiro Advogados em duas frentes: desenvolvimento de uma plataforma interna em **Laravel/Filament** (em produção) e suporte de TI corporativo. Gosto de automatizar processo repetitivo e de código que outra pessoa consegue manter depois.
 
 ---
 
-## Sobre mim
+## Experiência
 
-Trabalho na área de TI desde 2025, atuando em duas frentes simultâneas na mesma empresa: suporte interno corporativo (help desk, endpoint security, IAM) e desenvolvimento de dados (migração Oracle SQL → Power BI com Python/pandas em ambiente Ubuntu/WSL).
+**Silveiro Advogados** — Porto Alegre, RS · jan/2026 – atual
 
+**Desenvolvimento — plataforma interna (Laravel/Filament)**
+
+- 18 pull requests entregues em produção (jun–set/2026), com code review
+- Módulo de ativos: cadastro, termos de responsabilidade, anexos, exportação XLSX, descarte; correção de N+1 na exportação
+- Chamados: linha do tempo de eventos, campos customizados por fila, caixa de trabalho com prazo e urgência
+- Permissões granulares (RBAC com Spatie Permission), auditoria de eventos, notificações por sino e e-mail
+- Interface para uma automação (RPA) da área trabalhista
+
+**Suporte de TI**
+
+- Help desk e suporte remoto para 80+ usuários
+- Endpoint security e backup: Trellix, Wazuh, Acronis
+- Administração de Microsoft 365
+
+> O código da plataforma é privado (repositório da empresa).
 
 ---
 
 ## Stack
 
-**Linguagens**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/Oracle_SQL-F80000?style=flat-square&logo=oracle&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34C26?style=flat-square&logo=html5&logoColor=white)
-
-**Dados & BI**
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
-**Infraestrutura & DevOps**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Ubuntu%2FWSL-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-
-**Segurança Endpoint**
-![Trellix](https://img.shields.io/badge/Trellix-C00000?style=flat-square&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-3AABCE?style=flat-square&logoColor=white)
-![Acronis](https://img.shields.io/badge/Acronis-DF1F26?style=flat-square&logo=acronis&logoColor=white)
-
-**Automação & Web**
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+| Área | Ferramentas |
+| --- | --- |
+| **Backend** | PHP, Laravel, Filament, Livewire, Pest |
+| **Python / Automação** | Python, Selenium, Playwright, pdfplumber, FastAPI (básico) |
+| **Dados** | PostgreSQL, SQL |
+| **Infra** | Docker, Linux (Ubuntu/WSL2), Git |
+| **Segurança / TI** | Trellix, Wazuh, Acronis, Microsoft 365 |
 
 ---
 
 ## Projetos
 
-### 🚗 NeuroDrive
-Sistema de telemetria que extrai odometria visual em tempo real: a câmera do celular transmite vídeo via Wi-Fi para um servidor Flask, que calcula velocidade e aceleração por Optical Flow (Lucas-Kanade) sobre uma maquete em escala 1:24.  
-Projeto acadêmico apresentado na *A Jornada UniRitter 2026* — **3º lugar geral** com Certificado de Honra ao Mérito.
+### 🚗 [NeuroDrive](https://github.com/eduardo-a-xavier/neurodrive) — 3º lugar na Jornada UniRitter 2026
 
-- **Stack:** Python, OpenCV, Flask, SciPy, PWA (dashboard de telemetria ao vivo via SSE)
-- **Destaques:** odometria visual por Optical Flow, HUD de velocímetro renderizado em OpenCV, simulações eletromagnéticas do motor (FCEM, ressonância RLC, análise de harmônicas por FFT)
-- 🔗 [Ver repositório](https://github.com/eduardo-a-xavier/neurodrive)
+Telemetria por visão computacional: a câmera do celular transmite vídeo para um servidor Flask, que calcula velocidade e aceleração por Optical Flow (Lucas-Kanade) sobre uma maquete em escala. Dashboard PWA ao vivo via SSE. `Python` `OpenCV` `Flask` `SciPy`
 
----
+### 🤖 [Automação de candidaturas](https://github.com/eduardo-a-xavier/automacao-vagas)
 
-### 🤖 InfoJobs Bot *(automação)*
-Bot de candidatura automatizada com IA generativa (Gemini API) e automação de browser via Playwright.
+Bot que automatiza candidaturas em portais de vagas, com textos personalizados por vaga gerados via Gemini API. `Python` `Playwright` `Gemini API`
 
-- **Stack:** Python, Playwright, Gemini API
-- Geração dinâmica de textos de candidatura personalizados por vaga
+### 📦 [SimFrete — desafio backend](https://github.com/eduardo-a-xavier/simfrete-desafio)
 
----
+Busca de cidade por CEP e rota mais barata entre CEPs com Dijkstra, em Node.js puro sem dependências. `JavaScript` `Node.js` `Algoritmos`
 
-## Experiência atual
+### 🏋️ [Treino Fisiológico](https://github.com/eduardo-a-xavier/treino-fisiologico)
 
-**Silveiro Advogados** — Porto Alegre, RS *(jan/2026 – atual)*
-
-*Estagiário de TI / Suporte Interno*
-- Help desk e suporte remoto para base de 80+ usuários
-- Administração de endpoint security: Trellix, Wazuh, Acronis
-- Gestão de IAM e conformidade com LGPD
-
-*Estagiário de Desenvolvimento / Dados*
-- Migração de relatórios Oracle SQL → Power BI usando Python/pandas
-- Ambiente de desenvolvimento: Ubuntu/WSL
-
----
-
-## Certificações
-
-| Certificação | Emissor | Ano |
-|---|---|---|
-| Qualificação Profissional em Inteligência Artificial (160h) | UniRitter | 2025 |
-| Introdução à Análise de Dados (BI & Analytics) | LinkedIn Learning | 2026 |
-| Rota: Torne-se Especialista em Atendimento ao Cliente | LinkedIn Learning | 2026 |
-| Fundamentos para Assistentes Administrativos — Microsoft 365 | LinkedIn/Microsoft | 2026 |
-| Microsoft Outlook na Web | LinkedIn Learning | 2026 |
+PWA de acompanhamento de treino de academia. `TypeScript` `PWA`
 
 ---
 
 ## Formação
 
-🎓 **Engenharia de Software** — UniRitter *(2025 – 2029)*  
-🎓 **Técnico em Desenvolvimento de Sistemas** — Cruzeiro do Sul Virtual *(concluído 02/2026)*
+- **Engenharia de Software** — UniRitter · 2025 – 2029
+- **Técnico em Desenvolvimento de Sistemas** — Cruzeiro do Sul Virtual · concluído 02/2026
+- Qualificação Profissional em Inteligência Artificial (160h) — UniRitter · 2025
 
----
-
-## GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=eduardo-a-xavier&show_icons=true&theme=dark&count_private=true&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eduardo-a-xavier&layout=compact&theme=dark&hide_border=true)
-
-</div>
-
----
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eduardo-a-xavier)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvesxavier.eduardo01@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eduardo-a-xavier)
-
-</div>
