@@ -17,7 +17,6 @@ Trabalho na Silveiro Advogados em duas frentes: desenvolvimento de uma plataform
 - Módulo de ativos: cadastro, termos de responsabilidade, anexos, exportação XLSX, descarte; correção de N+1 na exportação
 - Chamados: linha do tempo de eventos, campos customizados por fila, caixa de trabalho com prazo e urgência
 - Permissões granulares (RBAC com Spatie Permission), auditoria de eventos, notificações por sino e e-mail
-- Interface para uma automação (RPA) da área trabalhista
 
 **Suporte de TI**
 
