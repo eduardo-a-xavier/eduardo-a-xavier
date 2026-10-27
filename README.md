@@ -1,26 +1,32 @@
 # Eduardo Alves Xavier
 
-**Estagiário de Desenvolvimento e TI · PHP/Laravel · Python · Engenharia de Software (UniRitter)**  
+**Estagiário de Desenvolvimento · PHP/Laravel · PostgreSQL · Pest · Python e automação · Engenharia de Software (UniRitter)**  
 Canoas / Porto Alegre, RS · [LinkedIn](https://www.linkedin.com/in/eduardo-a-xavier) · alvesxavier.eduardo01@gmail.com
 
-Trabalho na Silveiro Advogados em duas frentes: desenvolvimento de uma plataforma interna em **Laravel/Filament** (em produção) e suporte de TI corporativo. Gosto de automatizar processo repetitivo e de código que outra pessoa consegue manter depois.
+
+Trabalho na Silveiro Advogados desde dezembro de 2025, com foco atual em desenvolvimento back-end de uma plataforma interna em **Laravel/Filament** (em produção), mantendo atuação complementar em suporte de TI corporativo. Gosto de automatizar processo repetitivo e de código que outra pessoa consegue manter depois.
+
 
 ---
 
+
 ## Experiência
 
-**Silveiro Advogados** — Porto Alegre, RS · jan/2026 – atual
+
+**Silveiro Advogados** — Porto Alegre, RS · dez/2025 – atual
+
 
 **Desenvolvimento — plataforma interna (Laravel/Filament)**
 
-- 18 pull requests entregues em produção (jun–set/2026), com code review
+
+- Mais de 37 pull requests entregues em produção, com code review *(número informado pelo autor)*
 - Módulo de ativos: cadastro, termos de responsabilidade, anexos, exportação XLSX, descarte; correção de N+1 na exportação
 - Chamados: linha do tempo de eventos, campos customizados por fila, caixa de trabalho com prazo e urgência
 - Permissões granulares (RBAC com Spatie Permission), auditoria de eventos, notificações por sino e e-mail
 
 **Suporte de TI**
 
-- Help desk e suporte remoto para 80+ usuários
+- Help desk e suporte remoto a usuários corporativos
 - Endpoint security e backup: Trellix, Wazuh, Acronis
 - Administração de Microsoft 365
 
@@ -61,4 +67,3 @@ PWA de acompanhamento de treino de academia. `TypeScript` `PWA`
 - **Engenharia de Software** — UniRitter · 2025 – 2029
 - **Técnico em Desenvolvimento de Sistemas** — Cruzeiro do Sul Virtual · concluído 02/2026
 - Qualificação Profissional em Inteligência Artificial (160h) — UniRitter · 2025
-
