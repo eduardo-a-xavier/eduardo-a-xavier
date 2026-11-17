@@ -1,69 +1,58 @@
 # Eduardo Alves Xavier
 
-**Estagiário de Desenvolvimento · PHP/Laravel · PostgreSQL · Pest · Python e automação · Engenharia de Software (UniRitter)**  
-Canoas / Porto Alegre, RS · [LinkedIn](https://www.linkedin.com/in/eduardo-a-xavier) · alvesxavier.eduardo01@gmail.com
+**Desenvolvedor Back-end Júnior | PHP · Laravel · PostgreSQL · Pest | Python e automação**  
+Canoas / Porto Alegre, RS · [LinkedIn](https://www.linkedin.com/in/eduardo-a-xavier) · [E-mail](mailto:alvesxavier.eduardo01@gmail.com)
 
+## Sobre
 
-Trabalho na Silveiro Advogados desde dezembro de 2025, com foco atual em desenvolvimento back-end de uma plataforma interna em **Laravel/Filament** (em produção), mantendo atuação complementar em suporte de TI corporativo. Gosto de automatizar processo repetitivo e de código que outra pessoa consegue manter depois.
-
-
----
-
+Sou estagiário de desenvolvimento com foco em back-end. Trabalho principalmente com PHP, Laravel, PostgreSQL e testes automatizados; também uso Python em automações. Gosto de transformar regras de negócio em funcionalidades que sejam testáveis e fáceis de manter.
 
 ## Experiência
 
+**Silveiro Advogados — Estagiário de Desenvolvimento** · dez/2025 – atual  
+Atuo em sistemas internos em produção com Laravel e Filament.
 
-**Silveiro Advogados** — Porto Alegre, RS · dez/2025 – atual
+- Contribuí com **37 pull requests mergeados**, de 39 abertos, com revisão de código.
+- Implementei funcionalidades de back-end com validações, regras de negócio, PostgreSQL e testes Pest.
+- Contribuí para um fluxo usado por **320+ pessoas** e para a sincronização de **261 ativos legados sem erros**.
+- Integrei uma aplicação Laravel a automações Python/Selenium, reduzindo em **80%** o trabalho manual do processo.
 
+O código da plataforma da empresa é privado; os projetos abaixo são públicos.
 
-**Desenvolvimento — plataforma interna (Laravel/Filament)**
+## Projetos em destaque
 
+### [NeuroDrive](https://github.com/eduardo-a-xavier/neurodrive)
 
-- Mais de 37 pull requests entregues em produção, com code review *(número informado pelo autor)*
-- Módulo de ativos: cadastro, termos de responsabilidade, anexos, exportação XLSX, descarte; correção de N+1 na exportação
-- Chamados: linha do tempo de eventos, campos customizados por fila, caixa de trabalho com prazo e urgência
-- Permissões granulares (RBAC com Spatie Permission), auditoria de eventos, notificações por sino e e-mail
+Projeto acadêmico de telemetria por visão computacional em uma maquete. Processa vídeo com Optical Flow (Lucas–Kanade), exibe dados em um dashboard PWA e recebeu o **3º lugar na Jornada UniRitter 2026**.  
+`Python` · `OpenCV` · `Flask` · `SciPy`
 
-**Suporte de TI**
+### [Gorilazz](https://github.com/eduardo-a-xavier/Gorilazz)
 
-- Help desk e suporte remoto a usuários corporativos
-- Endpoint security e backup: Trellix, Wazuh, Acronis
-- Administração de Microsoft 365
+Experiência interativa de exploração em 3D, com controles de condução, conteúdo narrativo e interface responsiva.  
+`JavaScript` · `Three.js` · `HTML` · `CSS`
 
-> O código da plataforma é privado (repositório da empresa).
+### [Site alternativa](https://github.com/eduardo-a-xavier/site-alternativa)
 
----
+Landing page responsiva para uma loja de materiais de construção, publicada no GitHub Pages.  
+`HTML` · `CSS`
 
-## Stack
+## Tecnologias
 
-| Área | Ferramentas |
+| Área | Tecnologias |
 | --- | --- |
-| **Backend** | PHP, Laravel, Filament, Livewire, Pest |
-| **Python / Automação** | Python, Selenium, Playwright, pdfplumber, FastAPI (básico) |
-| **Dados** | PostgreSQL, SQL |
-| **Infra** | Docker, Linux (Ubuntu/WSL2), Git |
-| **Segurança / TI** | Trellix, Wazuh, Acronis, Microsoft 365 |
-
----
-
-## Projetos
-
-### 🚗 [NeuroDrive](https://github.com/eduardo-a-xavier/neurodrive) — 3º lugar na Jornada UniRitter 2026
-
-Telemetria por visão computacional: a câmera do celular transmite vídeo para um servidor Flask, que calcula velocidade e aceleração por Optical Flow (Lucas-Kanade) sobre uma maquete em escala. Dashboard PWA ao vivo via SSE. `Python` `OpenCV` `Flask` `SciPy`
-
-### 🤖 [Automação de candidaturas](https://github.com/eduardo-a-xavier/automacao-vagas)
-
-Bot que automatiza candidaturas em portais de vagas, com textos personalizados por vaga gerados via Gemini API. `Python` `Playwright` `Gemini API`
-
-### 🏋️ [Treino Fisiológico](https://github.com/eduardo-a-xavier/treino-fisiologico)
-
-PWA de acompanhamento de treino de academia. `TypeScript` `PWA`
-
----
+| Back-end | PHP, Laravel, Filament, Livewire |
+| Qualidade | Pest PHP, testes automatizados, code review |
+| Dados | PostgreSQL, SQL |
+| Automação | Python, Selenium, Playwright |
+| Ferramentas | Git, Docker, Linux/WSL2 |
 
 ## Formação
 
-- **Engenharia de Software** — UniRitter · 2025 – 2029
-- **Técnico em Desenvolvimento de Sistemas** — Cruzeiro do Sul Virtual · concluído 02/2026
-- Qualificação Profissional em Inteligência Artificial (160h) — UniRitter · 2025
+- **Engenharia de Software** — UniRitter · cursando, previsão 2029
+- **Técnico em Desenvolvimento de Sistemas** — Cruzeiro do Sul Virtual · concluído em 02/2026
+- **Banco de Dados 1: fundamentos** — IFRS / Aprenda Mais · curso concluído
+
+---
+
+*Este perfil destaca experiência comprovável e projetos com código público. Não listo como experiência profissional tecnologias que estudo em cursos.*
+
